@@ -1,0 +1,58 @@
+body {
+    background-color: #7BAFD4;
+    font-family: "Times New Roman", monospace;
+    color: #1D6AA1;
+}
+
+body > div {
+    margin: 0em 1em 1em 1em;
+    padding: 1em;
+    background-color: #D1E1ED;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px black;
+    font-family: "Times New Roman", monospace;
+    color: #1D6AA1;
+}
+
+body > div:first-child {
+    margin-top: 1em;
+}
+
+h1 {
+    font-family: Century;
+}
+
+h3 {
+    font-family: Century;
+}
+
+h4 {
+    height: 2em;
+    width: auto;
+    top: 1em;
+    text-align: center;
+    background-color: #5AAFED;
+    font-family: "Verdana", monospace;
+    color: #14486E;
+}
+
+.education, .experience, #notables > ul, #bio > div, .project, .course, .citation {
+    padding: 0.2em;
+}
+
+.education:hover, .experience:hover, #notables > ul:hover, #bio > div:hover, .project:hover, .course:hover, .citation:hover {
+    background-color: #E6F2FA;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+img {
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
